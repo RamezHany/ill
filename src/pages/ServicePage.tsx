@@ -1,4 +1,5 @@
 import { useParams, useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
@@ -115,6 +116,10 @@ const ServicePage = () => {
   const { serviceId } = useParams();
   const navigate = useNavigate();
   const service = services[serviceId as keyof typeof services];
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   if (!service) {
     return <div>Service not found</div>;
