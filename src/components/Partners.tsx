@@ -3,7 +3,7 @@ export const Partners = () => {
     { name: "DataFlow", logo: "/placeholder.svg" },
     { name: "gmind", logo: "/gmind.svg" },
     { name: "ARAB YOUTH ENtREPRENURSHIP FORUM", logo: "/AYEF.png" },
-    { name: "EnactusAlex", logo: "/EnactusAlex.png" },
+    { name: "EnactusAlex", logo: "/EnactusAlex.svg" },
 
   ];
 
