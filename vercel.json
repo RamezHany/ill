@@ -1,36 +1,36 @@
 {
   "version": 2,
-  "routes": [
+  "rewrites": [
     { 
-      "src": "/service",
-      "dest": "/"
+      "source": "/service",
+      "destination": "/"
     },
     {
-      "src": "/service/(.*)",
-      "dest": "/"
+      "source": "/service/(.*)",
+      "destination": "/"
     },
     {
-      "src": "/ar",
-      "dest": "/"
+      "source": "/ar",
+      "destination": "/"
     },
     {
-      "src": "/ar/(.*)",
-      "dest": "/"
+      "source": "/ar/(.*)",
+      "destination": "/"
     },
     {
-      "src": "/contact",
-      "dest": "/"
+      "source": "/contact",
+      "destination": "/"
     },
     {
-      "src": "/((?!api/.*).*)",
-      "dest": "/"
+      "source": "/((?!api/.*).*)",
+      "destination": "/"
     },
     {
       "handle": "filesystem"
     },
     {
-      "src": "/(.*)",
-      "dest": "/404.html",
+      "source": "/(.*)",
+      "destination": "/404.html",
       "status": 404
     }
   ],
