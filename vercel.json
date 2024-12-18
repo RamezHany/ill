@@ -1,28 +1,29 @@
 {
   "version": 2,
   "routes": [
-    {
-      "src": "/service/[^.]+",
-      "dest": "/",
-      "status": 200
+    { 
+      "src": "/service",
+      "dest": "/"
     },
-
-
-{
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
-}
-
-,
-    
     {
-      "src": "/ar/[^.]+",
-      "dest": "/",
-      "status": 200
+      "src": "/service/(.*)",
+      "dest": "/"
+    },
+    {
+      "src": "/ar",
+      "dest": "/"
+    },
+    {
+      "src": "/ar/(.*)",
+      "dest": "/"
     },
     {
       "src": "/contact",
-      "dest": "/",
-      "status": 200
+      "dest": "/"
+    },
+    {
+      "src": "/((?!api/.*).*)",
+      "dest": "/"
     },
     {
       "handle": "filesystem"
