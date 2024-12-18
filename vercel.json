@@ -1,5 +1,30 @@
 {
   "version": 2,
+  "routes": [
+    {
+      "src": "/service/[^.]+",
+      "dest": "/",
+      "status": 200
+    },
+    {
+      "src": "/ar/[^.]+",
+      "dest": "/",
+      "status": 200
+    },
+    {
+      "src": "/contact",
+      "dest": "/",
+      "status": 200
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/404.html",
+      "status": 404
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
@@ -37,11 +62,5 @@
   "framework": "vite",
   "regions": ["cdg1"],
   "cleanUrls": true,
-  "trailingSlash": false,
-  "rewrites": [
-    { 
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+  "trailingSlash": false
 }
