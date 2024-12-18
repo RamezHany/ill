@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Home Page -->
+  <url>
+    <loc>https://illustrav.com/</loc>
+    <lastmod>2024-12-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://illustrav.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://illustrav.com/" />
+  </url>
+
+  <!-- Contact Page -->
+  <url>
+    <loc>https://illustrav.com/contact</loc>
+    <lastmod>2024-12-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://illustrav.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://illustrav.com/contact" />
+  </url>
+
+  <!-- Services Section -->
+  <url>
+    <loc>https://illustrav.com/#services</loc>
+    <lastmod>2024-12-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://illustrav.com/ar/#services" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://illustrav.com/#services" />
+  </url>
+
+  <!-- About Section -->
+  <url>
+    <loc>https://illustrav.com/#about</loc>
+    <lastmod>2024-12-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://illustrav.com/ar/#about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://illustrav.com/#about" />
+  </url>
+
+  <!-- Individual Service Pages -->
+  <url>
+    <loc>https://illustrav.com/service/process-automation</loc>
+    <lastmod>2024-12-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://illustrav.com/ar/service/process-automation" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://illustrav.com/service/process-automation" />
+  </url>
+
+  <url>
+    <loc>https://illustrav.com/service/workflow-optimization</loc>
+    <lastmod>2024-12-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://illustrav.com/ar/service/workflow-optimization" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://illustrav.com/service/workflow-optimization" />
+  </url>
+
+  <!-- Partners Section -->
+  <url>
+    <loc>https://illustrav.com/#partners</loc>
+    <lastmod>2024-12-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://illustrav.com/ar/#partners" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://illustrav.com/#partners" />
+  </url>
+</urlset>
